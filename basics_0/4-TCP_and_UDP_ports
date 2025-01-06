@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-netstat -tul -p | grep LISTEN
+# netstat script with flags for TCP and UDP protocol, followed by Pid name
+netstat -tul -p
