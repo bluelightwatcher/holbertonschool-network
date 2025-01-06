@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# ping script passing argv0 as Ip address
+ping "$1"
