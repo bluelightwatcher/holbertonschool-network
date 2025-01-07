@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# printing active interface and filtering inet address
+
+ifconfig | grep 'inet ' | awk '{print $2}'
