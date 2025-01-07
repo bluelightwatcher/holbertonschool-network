@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Add the new entries
 {
     echo "127.0.0.2    localhost"
